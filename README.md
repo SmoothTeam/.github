@@ -1,2 +1,1 @@
-# .github
-Default community health files and organization profile for SmoothTeam
+Ну кароче пока что это просто эдитор

@@ -1,0 +1,11 @@
+name: REUSE
+on:
+  workflow_call:
+permissions:
+  contents: read
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pipx run reuse lint

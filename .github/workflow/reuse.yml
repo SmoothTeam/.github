@@ -1,3 +1,4 @@
+# SmoothTeam/.github → .github/workflows/reuse.yml
 name: REUSE
 on:
   workflow_call:
